@@ -9,6 +9,9 @@ header {
     background: #fffffff6;
     z-index: 999;
 }
+a:hover {
+    color: #ba8a14;
+}
 .head-wrapper{
     display: flex;
     justify-content: space-between;
@@ -216,13 +219,14 @@ header {
 
 .text-end { 
     text-align: center;
-    height: 20px;
+    /* height: 20px; */
     width: 1160px;
     border-top: 1px solid rgba(128, 128, 128, 0.226);
     margin: 0 auto;
+    padding-bottom: 48px;
+    padding-top: 70px;
 }
 .text-end p {
-    padding-top: 70px;
     font-size: 14px;
     font-family: sans-serif;
     color: rgba(102, 102, 102, 1);
